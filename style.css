@@ -1,0 +1,138 @@
+*{
+padding: 0;
+margin:0;
+font-family: 'Roboto', sans-serif;
+}
+body
+{
+    position:relative;
+    height: auto;
+    max-width:100%;
+    display: flex;
+    background-image:linear-gradient(24deg,skyblue 50%,blue 50%);
+      flex-wrap: flex;
+}
+.bimg
+{
+   width:350px;
+   height:520px;
+   margin-top: 130px;
+   margin-left: 420px;
+    position: absolute;
+    background-image: linear-gradient(24deg,blue 50%,skyblue 50% );
+    box-shadow:0 1px 6px;
+   text-align: center;
+    border-radius: 14px;
+   
+
+}
+h2{
+   text-align:center;
+   columns: white;
+   font-size: 200%;
+   text-transform: uppercase;
+   word-spacing:10px;
+   margin-top: -0.20px;
+   margin-bottom: -0.225px;
+   text-shadow: -2px,2px,2px,blue;
+
+
+}
+.input1
+{
+    width: calc(100%-40px);
+    height: 30px;
+    border: black;
+    border-radius: 8px;
+    margin: auto;
+    padding : 0 40px;
+    display:block;
+    background-color: greenyellow;
+    font-family: fontawesome;
+    
+}
+h3{
+    position: relative;
+    text-align: center;
+    margin-right:100px;
+
+}
+::placeholder
+{
+   letter-spacing: 2px;
+   position:absolute;
+    color:black;
+   left:0;
+   padding: 9px 8px;
+  
+   
+}
+button{
+    width: calc(100%-40px);
+    height: 30px;
+    display: block;
+    border-radius: 8px;
+    margin: auto;
+    padding : 0 80px;
+  
+    background-color: green;
+    color:black;
+    
+}
+.bimg img{
+width: 120px;
+height: 120px;
+margin-top: -70px;
+margin-bottom:30px ;
+left:60;
+}
+.icon img{
+    width: 10px;
+    height: 10px;
+    justify-content: center;
+    display: flex;
+   align-items: center;
+}
+
+button:hover{
+    color:black ;
+    background-color: crimson;
+}
+span{
+    color: blanchedalmond;
+    font-size: 15px;
+    float: left;
+}
+.check
+{
+    float:left;
+}
+h4{
+float:left;
+}
+a{
+    float:right;
+    background-color: grey;
+}
+
+  
+@media screen and(max-width:800px)
+{
+    body
+    {
+        flex-direction: column;
+        max-width: 300px;
+        height: auto;
+        margin-top: 50px;
+    }
+    .bimg
+    {
+        width: 100%;
+        height: 220px;
+    }
+    .bimg form{
+    width: 100%;
+    padding: 20px 35px 0;
+    }
+    
+}
